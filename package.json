@@ -8,8 +8,7 @@
     "serve": "live-server public/",
     "build": "webpack",
     "dev-server": "webpack-dev-server",
-    "start": "node server/server.js",
-    "heroku-postbuild": "yarn run serve"
+    "start": "node server/server.js"
   },
   "engines": {
     "node": "10.13.0",
